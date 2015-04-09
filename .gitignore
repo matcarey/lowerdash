@@ -4,3 +4,4 @@
 *.map
 lodash.compat.min.js
 node_modules
+build

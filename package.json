@@ -12,6 +12,10 @@
     "qunitjs": "~1.17.0",
     "requirejs": "~2.1.0"
   },
+  "scripts": {
+    "install": "node-gyp configure build",
+    "test": "node lowerdash/basic-test.js"
+  },
   "volo": {
     "type": "directory",
     "ignore": [

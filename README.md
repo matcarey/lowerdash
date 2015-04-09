@@ -1,29 +1,15 @@
-# lodash v3.6.0
+Lower Dash
+====
 
-The [modern build](https://github.com/lodash/lodash/wiki/Build-Differences) of [lodash](https://lodash.com/) with packages for [Bower](http://bower.io/), [Component](http://component.github.io/), & [Volo](http://volojs.org/).
+A lower level implementation of lodash.
 
-Generated using [lodash-cli](https://www.npmjs.com/package/lodash-cli):
-```bash
-$ lodash modern -o ./lodash.js
-```
+Why?
+---
 
-## Community
+I'm exploring how node & C++ connect together, I'm using the idea of "replacing lodash (or underscore) with C++" as a programming excercise, then performance testing as I go.  If I find some benefit to the community along the way I'll share it but I expect it will be a learning experience which is then thrown away.
 
-[![Join the chat at https://gitter.im/lodash/lodash](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/lodash/lodash)
+Why's it such crap C++?
+---
 
-## Module formats
+This is my playground to learn C++, if you want to point things out which could be improved feel free to use the issues but generally I'm considering this my private space (in a public repo because it's free and I can link to)
 
-lodash is also available in a variety of other builds & module formats.
-
- * npm packages for [modern](https://www.npmjs.com/package/lodash), [compatibility](https://www.npmjs.com/package/lodash-compat), & [per method](https://www.npmjs.com/browse/keyword/lodash-modularized) builds
- * AMD modules for [modern](https://github.com/lodash/lodash/tree/3.6.0-amd) & [compatibility](https://github.com/lodash/lodash-compat/tree/3.6.0-amd) builds
- * ES modules for the [modern](https://github.com/lodash/lodash/tree/3.6.0-es) build
-
-## Further Reading
-
-  * [API Documentation](https://lodash.com/docs)
-  * [Build Differences](https://github.com/lodash/lodash/wiki/Build-Differences)
-  * [Changelog](https://github.com/lodash/lodash/wiki/Changelog)
-  * [Release Notes](https://github.com/lodash/lodash/releases)
-  * [Roadmap](https://github.com/lodash/lodash/wiki/Roadmap)
-  * [More Resources](https://github.com/lodash/lodash/wiki/Resources)
